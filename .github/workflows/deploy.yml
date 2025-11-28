@@ -28,7 +28,6 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        # Using npm install is safer if you haven't uploaded package-lock.json yet
         run: npm install
 
       - name: Build
